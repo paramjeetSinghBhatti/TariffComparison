@@ -50,7 +50,10 @@ dotnet build EnergyTariffComparison.sln -c Release
 
 # Publish the project(s) in the solution to the 'out' folder
 echo "Publishing the project..."
-dotnet publish EnergyTariffComparison.sln -c Release -o out
+dotnet publish ./TariffComparison/TariffComparison.csproj -c Release -o out
+
+echo "Copying properties folder to out directory"
+cp -r ./TariffComparison/Properties ./out/
 
 # 6. Run the Web API
 echo "Running the Web API..."
