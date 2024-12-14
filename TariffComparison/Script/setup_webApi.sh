@@ -52,13 +52,7 @@ dotnet build EnergyTariffComparison.sln -c Release
 echo "Publishing the project..."
 dotnet publish ./TariffComparison/TariffComparison.csproj -c Release -o out
 
-echo "Copying properties folder to out directory"
-cp -r ./TariffComparison/Properties ./out/
-
 # 6. Run the Web API
 echo "Running the Web API..."
 cd out
-ASPNETCORE_ENVIRONMENT=Development dotnet TariffComparison.dll  # Replace <your-webapi-dll> with your Web API's DLL name.
-
-# Done
-echo "Setup complete. Your .NET 8 Web API is running."
+ASPNETCORE_ENVIRONMENT=Development dotnet TariffComparison.dll  --urls "http://localhost:5226;https://localhost:7263"# Replace <your-webapi-dll> with your Web API's DLL name.
