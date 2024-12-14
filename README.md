@@ -24,13 +24,25 @@ This API supports asynchronous operations for optimized performance in high-traf
 - Swagger UI for interactive API documentation.
 - Supports both HTTP and HTTPS endpoints.
 
-- ## Installation - Windows
+## Installation
+ ### Windows
 
-### Prerequisites
-Before you begin, ensure you have the following installed:
-- .NET 8 SDK
-- Git
+    Prerequisites
+    Before you begin, ensure you have the following installed:
+    - .NET 8 SDK
+    - Git
+    
+    Steps to Install
+    1. **Clone the repository: Public Repo** 
+        https://github.com/paramjeetSinghBhatti/TariffComparison.git
+    2. Run the below commands in the Solution root directory
+        dotnet build -c Release
+        dotnet publish ./TariffComparison/TariffComparison.csproj -c Release -o out
+        cd out
+        $env:ASPNETCORE_ENVIRONMENT="Development" `You can optionally set it to Production as well.`
+        dotnet TariffComparison.dll --urls "http://localhost:5226;https://localhost:7263"
 
-### Steps to Install
-1. **Clone the repository: Public Repo** 
-https://github.com/paramjeetSinghBhatti/TariffComparison.git
+  ### Linux
+
+      Prerequisites
+      You just need to run 
