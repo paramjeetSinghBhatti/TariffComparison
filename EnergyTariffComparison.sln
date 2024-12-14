@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparison", "TariffComparison\TariffComparison.csproj", "{3916844D-DC81-4621-B697-0BD4CAD52EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparisonTest", "TariffComparisonTest\TariffComparisonTest.csproj", "{9CDCF854-BAA7-4780-8603-8A301620BFE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3916844D-DC81-4621-B697-0BD4CAD52EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3916844D-DC81-4621-B697-0BD4CAD52EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3916844D-DC81-4621-B697-0BD4CAD52EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3916844D-DC81-4621-B697-0BD4CAD52EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CDCF854-BAA7-4780-8603-8A301620BFE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDCF854-BAA7-4780-8603-8A301620BFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CDCF854-BAA7-4780-8603-8A301620BFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CDCF854-BAA7-4780-8603-8A301620BFE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
