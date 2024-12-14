@@ -36,15 +36,21 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
+# Clone the repository
 git clone "$1" webapi-project
 cd webapi-project
 
-# Restore, build, and publish the project
-echo "Restoring, building, and publishing the project..."
-dotnet restore
-dotnet build -c Release
+# Restore dependencies using the solution file
+echo "Restoring dependencies..."
+dotnet restore EnergyTariffComparison.sln
 
-dotnet publish -c Release -o out
+# Build the solution in Release configuration
+echo "Building the solution..."
+dotnet build EnergyTariffComparison.sln -c Release
+
+# Publish the project(s) in the solution to the 'out' folder
+echo "Publishing the project..."
+dotnet publish EnergyTariffComparison.sln -c Release -o out
 
 # 6. Run the Web API
 echo "Running the Web API..."
