@@ -39,10 +39,15 @@ This API supports asynchronous operations for optimized performance in high-traf
         dotnet build -c Release
         dotnet publish ./TariffComparison/TariffComparison.csproj -c Release -o out
         cd out
-        $env:ASPNETCORE_ENVIRONMENT="Development" `You can optionally set it to Production as well.`
+        $env:ASPNETCORE_ENVIRONMENT="Development" >You can optionally set it to Production as well.
         dotnet TariffComparison.dll --urls "http://localhost:5226;https://localhost:7263"
 
   ### Linux
 
       Prerequisites
-      You just need to run 
+       Script:https://github.com/paramjeetSinghBhatti/TariffComparison/blob/5fc8a935040f159da1213a72845603a1d1287dec/TariffComparison/Script/setup_webApi.sh
+       Git Installed
+       Ubuntu or Debian-Based System `I have tested the script on Ubuntu's Latest version`
+
+      Steps to run API
+      1. Run the script with the command: <script-name> <Git repo URL> `eg. ./setup_webApi.sh https://github.com/paramjeetSinghBhatti/TariffComparison`
