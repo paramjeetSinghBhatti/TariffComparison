@@ -18,7 +18,7 @@ namespace TariffComparison.Providers
 
         public async Task<IEnumerable<TariffModel>> GetTariffsAsync()
         {
-            var tariffsJson = File.ReadAllText("./properties/tariffs.json");
+            var tariffsJson = File.ReadAllText("./Properties/tariffs.json");
             if (string.IsNullOrWhiteSpace(tariffsJson))
                 return [];
 

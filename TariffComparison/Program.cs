@@ -21,7 +21,8 @@ builder.Services.AddSwaggerGen();
 
 // Setup Serilog to log to a file
 Log.Logger = new LoggerConfiguration()
-    .WriteTo.File("logs/myapp-.log", rollingInterval: RollingInterval.Day) // Daily log rotation
+    .WriteTo.File("logs/myapp-.log", rollingInterval: RollingInterval.Day)
+    .WriteTo.Console()
     .CreateLogger();
 
 // Use Serilog as the logging provider

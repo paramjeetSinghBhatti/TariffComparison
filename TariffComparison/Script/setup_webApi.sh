@@ -58,7 +58,7 @@ cp -r ./TariffComparison/Properties ./out/
 # 6. Run the Web API
 echo "Running the Web API..."
 cd out
-dotnet TariffComparison.dll  # Replace <your-webapi-dll> with your Web API's DLL name.
+ASPNETCORE_ENVIRONMENT=Development dotnet TariffComparison.dll  # Replace <your-webapi-dll> with your Web API's DLL name.
 
 # Done
 echo "Setup complete. Your .NET 8 Web API is running."
