@@ -1,19 +1,5 @@
 # TariffComparison Web API
 
-This Web API built with .NET 8 allows users to compare various tariff plans based on consumption. The API provides an endpoint to calculate different Tariifs Annual Costs using different calculators and serves results in JSON format.
-
-## Table of Contents
-
-- [Project Description](#project-description)
-- [Installation](#installation)
-- [Usage](#usage)
-
-## Project Description
-
-The **TariffComparison** project is a RESTful Web API designed to compare various tariff plans, including basic, packaged, and other custom tariffs. Built with .NET 8, it provides a flexible and extendable solution to calculate tariffs based on different input parameters.
-
-This API supports asynchronous operations for optimized performance in high-traffic scenarios.
-
 ## Installation
 ### Windows
 
