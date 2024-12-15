@@ -31,4 +31,4 @@ Prerequisites
     2. Run the script with the command: sh <script-name> <Git repo URL> `eg. sh setup_webApi.sh https://github.com/paramjeetSinghBhatti/TariffComparison`
 
 ## Usage
-    `API endpoint: /api/tariffcomparison/compare?consumption=4000`
+`API endpoint: /api/tariffcomparison/compare?consumption=4000`
