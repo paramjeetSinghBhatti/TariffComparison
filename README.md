@@ -40,7 +40,7 @@ This API supports asynchronous operations for optimized performance in high-traf
 ### Linux
 
       Prerequisites
-       Script:https://github.com/paramjeetSinghBhatti/TariffComparison/blob/5fc8a935040f159da1213a72845603a1d1287dec/TariffComparison/Script/setup_webApi.sh
+       Script:[https://github.com/paramjeetSinghBhatti/TariffComparison/blob/5fc8a935040f159da1213a72845603a1d1287dec/TariffComparison/Script/setup_webApi.sh](https://github.com/paramjeetSinghBhatti/TariffComparison/blob/0a21e8670c34b83c9a14ba64487c85fc68075caf/setup_WebApi.sh)
        Git Installed
        Ubuntu or Debian-Based System `I have tested the script on Ubuntu's Latest version`
 
