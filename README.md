@@ -46,7 +46,8 @@ Prerequisites
 - Ubuntu or Debian-Based System `I have tested the script on Ubuntu's Latest version`
 
 - Steps to run API
-    1. Run the script with the command: <script-name> <Git repo URL> `eg. ./setup_webApi.sh https://github.com/paramjeetSinghBhatti/TariffComparison`
+    1. Switch to the directory containing the script.
+    2. Run the script with the command: sh <script-name> <Git repo URL> `eg. sh setup_webApi.sh https://github.com/paramjeetSinghBhatti/TariffComparison`
 
 ## Usage
     `API endpoint: /api/tariffcomparison/compare?consumption=4000`
