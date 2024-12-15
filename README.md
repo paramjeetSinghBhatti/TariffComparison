@@ -19,13 +19,8 @@ This API supports different tariff calculators:
 
 This API supports asynchronous operations for optimized performance in high-traffic scenarios.
 
-### Features:
-- Easily extendable with new tariff calculators.
-- Swagger UI for interactive API documentation.
-- Supports both HTTP and HTTPS endpoints.
-
 ## Installation
- ### Windows
+### Windows
 
     Prerequisites
     Before you begin, ensure you have the following installed:
@@ -42,7 +37,7 @@ This API supports asynchronous operations for optimized performance in high-traf
         $env:ASPNETCORE_ENVIRONMENT="Development" >You can optionally set it to Production as well.
         dotnet TariffComparison.dll --urls "http://localhost:5226;https://localhost:7263"
 
-  ### Linux
+### Linux
 
       Prerequisites
        Script:https://github.com/paramjeetSinghBhatti/TariffComparison/blob/5fc8a935040f159da1213a72845603a1d1287dec/TariffComparison/Script/setup_webApi.sh
@@ -51,3 +46,6 @@ This API supports asynchronous operations for optimized performance in high-traf
 
       Steps to run API
       1. Run the script with the command: <script-name> <Git repo URL> `eg. ./setup_webApi.sh https://github.com/paramjeetSinghBhatti/TariffComparison`
+
+## Usage
+    `API endpoint: /api/tariffcomparison/compare?consumption=4000`
